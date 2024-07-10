@@ -298,8 +298,9 @@ body{
 }
 
 .features{
-    width: 88%;
+    width: 1024px;
     margin-top: 130px;
+    padding-left: calc((100% - 1170px)/2);
 }
 
 .features-top{
