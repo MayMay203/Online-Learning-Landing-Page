@@ -34,6 +34,13 @@ body{
     line-height: 32px; 
 }
 
+.sub-desc{
+    color: #9DA6A5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 27px;
+}
+
 .btn-started{
     width: 186px;
     height: 68px;
@@ -60,8 +67,25 @@ body{
 
 .title{
     color: #767E7E;
-    font-size: 12px;
+    font-size: 1.2rem;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
+}
+
+.heading-lv2{
+    color: #0D1111;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.mt-18{
+    margin-top: 18px;
+}
+
+.mt-19{
+    margin-top: 19px;
 }
 /* Header */
 .header{
@@ -134,7 +158,7 @@ body{
 
 /* Hero */
 .hero{
-    margin-top: 42px;
+    padding: 42px 0 79px;
 }
 
 .hero .body{
@@ -273,6 +297,60 @@ body{
     margin-left: 0;
 }
 
+.features{
+    width: 88%;
+    margin-top: 130px;
+}
+
+.features-top{
+    width: 57%;
+}
+
+.feature-list{
+    margin-top: 80px;
+    display: flex;
+}
+
+.feature-item{
+    display: inline-block;
+}
+
+.feature-item strong{
+    color: #0D1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.feature-item:first-child{
+    width: 36.8%;
+}
+
+.feature-item:first-child .sub-desc{
+    display: inline-block;
+    width: 168px;
+}
+
+.feature-item:nth-child(2){
+    width: 41.3%;
+}
+
+.feature-item:nth-child(2) .sub-desc{
+    display: inline-block;
+    width: 223px;
+}
+
+.feature-item:nth-child(3) .sub-desc{
+    display: inline-block;
+    width: 224px;
+}
+
+.feature-item .info{
+    margin-top: 26px;
+}
+
+.feature-item .sub-desc{
+    margin-top: 16px;
+}
 
 
 
